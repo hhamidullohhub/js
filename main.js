@@ -34,3 +34,6 @@ const result = bigIntNumber - BigInt(9007199254740991); // bigIntNumber ni 2 ga 
 
 console.log(result); // Natija: 18014398509481982
 
+Number.isInteger(10);
+Number.isInteger(10.5);
+console.log(isInteger)
