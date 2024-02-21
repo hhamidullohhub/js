@@ -25,3 +25,12 @@
 let text11 = "hamidulloh"
 let text12 = text11.charCodeAt(0)
 console.log(text12);
+
+// BigInt yaratish
+const bigIntNumber = BigInt(9007199254740991); // Odatiy sonlarning eng katta qiymati
+
+// BigInt yordamida hisoblash
+const result = bigIntNumber - BigInt(9007199254740991); // bigIntNumber ni 2 ga ko'paytirish
+
+console.log(result); // Natija: 18014398509481982
+
