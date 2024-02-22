@@ -62,3 +62,9 @@ let obj = {
 };
 
 console.log(obj.toString(2)); // Output: [object Object]
+
+let number = 152;
+let number1 = number.toString()
+console.log(number1)
+
+not equal value or not equal typenot equal value or not equal typenot equal value or not equal type
