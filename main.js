@@ -38,13 +38,15 @@ console.log(result); // Natija: 18014398509481982
 // Number.isInteger(10.5);
 // console.log(isInteger)
 
-let x = 123;
-x.toString(22);
-console.log('toString')
+// let x = 123;
+// x.toString(22);
+// console.log('toString')
 
-let x1 = 9.656
-let x2 = x1.toFixed(0)
-let x4 = x1.toFixed(2)
-let x3 = x1.toFixed(4)
-let x5 = x1.toFixed(6)
-console.log(x2,x3,x4,x5)
+// let x1 = 9.656
+// let x2 = x1.toFixed(0)
+// let x4 = x1.toFixed(2)
+// let x3 = x1.toFixed(4)
+// let x5 = x1.toFixed(6)
+// console.log(x2,x3,x4,x5)
+
+let x = 9999999999999999; 
