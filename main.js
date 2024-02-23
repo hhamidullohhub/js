@@ -112,4 +112,4 @@ let g = Number(prompt("g"))// //"2"
 
 
 
-6 ta raqamni eng kichigini yozish
+//6 ta raqamni eng kichigini yozish
