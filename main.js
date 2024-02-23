@@ -84,19 +84,19 @@ let d = Number(prompt("d"))// //"2"
 let e = Number(prompt("e"))// //"2"
 let f = Number(prompt("f"))// //"2"
 let g = Number(prompt("g"))// //"2"
-// console.log("a",a);
-// console.log("b",b);
-// console.log("c",c);
+console.log("a",a);
+console.log("b",b);
+console.log("c",c);
 
-// if(a <= b && a <= c) {
-//     console.log(a);
-// }
-// else if(b <= c && b <= a) {
-//     console.log(b);
-// }
-// else {
-//     console.log(c);
-// }
+if(a <= b && a <= c) {
+    console.log(a);
+}
+else if(b <= c && b <= a) {
+    console.log(b);
+}
+else {
+    console.log(c);
+}
 
 
 // 6 ta raqamnini eng kattasini yozish
