@@ -91,12 +91,12 @@ console.log("c",c);
 if(a <= b && a <= c) {
     console.log(a);
 }
-// else if(b <= c && b <= a) {
-//     console.log(b);
-// }
-// else {
-//     console.log(c);
-// }
+else if(b <= c && b <= a) {
+    console.log(b);
+}
+else {
+    console.log(c);
+}
 
 
 // 6 ta raqamnini eng kattasini yozish
