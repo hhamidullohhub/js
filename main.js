@@ -1,68 +1,115 @@
-// let name = "hamidulloh"
-// let surname = "hikmatullayev"
-// console.log(surname)
-
-// let text1 = "salom manign ismim hamidulloh salom sening isming nima";
-// let text2 = text1.lastIndexOf("salom");
-// console.log(text2)
-
-// let text3 = "salom men hamidulloh man man sani nma qilaman bilasamnmmi"
-// let text4 = text3.toLowerCase();
-// console.log(text4)
-
-// let text5 = "hamidulloh"
-// let text6 = "hikmatullayev"
-// let text7 = text5.concat(" ",text6)
-// let text8 = text5.indexOf('ham')
-// console.log(text7)
-// console.log(text8)
-
-// let text9 = "salom"
-// let text10 = text9.charAt(0)
-// console.log(text10)
+// let num = prompt("1 ta son kiritng");
+// if (num > 77) {
+//     console.log("77 dan katta")
+// }else if (num == 77 ) {
+//     console.log("77 ga teng")
+// }else if (num < 77) {
+//     console.log("77 dan kichik")
+// }else {
+//     console.log("xatolik bor")
+// }
 
 
-let text11 = "hamidulloh"
-let text12 = text11.charCodeAt(0)
-console.log(text12);
 
-// BigInt yaratish
-const bigIntNumber = BigInt(9007199254740991); // Odatiy sonlarning eng katta qiymati
 
-// BigInt yordamida hisoblash
-const result = bigIntNumber - BigInt(9007199254740991); // bigIntNumber ni 2 ga ko'paytirish
 
-console.log(result); // Natija: 18014398509481982
 
-// Number.isInteger(10);
-// Number.isInteger(10.5);
-// console.log(isInteger)
 
-// let x = 123;
-// x.toString(22);
-// console.log('toString')
+// Foydalanuvchidan 20 raqamidan kichik son kiritishini so'rang.Agar kiritilgan raqam 20 yoki undan katta bo'lsa ekranda 'Juda katta' degan yozuvni chiqaring, aks holda 'Rahmat' yozuvini chiqaring.
 
-// let x1 = 9.656
-// let x2 = x1.toFixed(0)
-// let x4 = x1.toFixed(2)
-// let x3 = x1.toFixed(4)
-// let x5 = x1.toFixed(6)
-// console.log(x2,x3,x4,x5)
+// let text = prompt("20 raqamidan kichik son kiriting")
 
-let x = 123;
-let y = x.toString(16);
-(1245).toString();
-(100 + 23).toString();
+// if (text > 20) {
+//     console.log("bu son 20 dan katta")
+// }else if (text == 20) {
+//     console.log("bu son 20 ga teng")
+// }else if (text < 20) {
+//     console.log("Raxmat")
+// }
 
-console.log( y,typeof x);
+// let num = prompt("birorta son kiriting")
+// let numTrim = num.trim()
 
-let obj = {
-    name: "John",
-    age: 30
-};
+// if(numTrim.length > 0) {
+//     let numInt = Number(numTrim) /// "4","55550", "dfkashsdjk", "fdsauh2564", ",,,....p[l413892720y"  fdasfdas
+//     if(isNaN(numInt)) {
+//         console.log("Raqam kiritmadingiz");
+//     }else {
+//         if(numInt % 2 === 0) {
+//             console.log("bu son juft son");
+//         }else {
+//            console.log ("bus son toq son");
+//         }
+//     }
 
-console.log(obj.toString(2)); // Output: [object Object]
+// }else {
+//     console.log("Qiymat kiritmadingiz");
+// }
 
-let number = 152;
-let number1 = number.toString()
-console.log(number1)
+
+
+
+
+// if (num % 2 == 0 ) {
+//     console.log("bu son juft son")
+// }else {
+//     console.log("bu son toq son")
+//     console.console.log();
+// }
+
+
+
+
+// Ixtiyoriy A sonini juft yoki toqligini aniqlang. Agar A soni juft bo'lsa console da "A soni juft" degan aks holda "A soni toq" degan habar chiqaring
+
+// let a = prompt ("birorta son kiriting")
+// let x = a % 2 == 0 ? ("bu son juft son"):("bus son toq son");
+// console.log(x)
+
+
+
+// let a = prompt ("birorta son kiriting")
+// let x = a.length > 0 ? isNaN(Number(a)) ? "Bu raqam emas" : a % 2 == 0 ? ("bu son juft son") : ("bus son toq son"): "qiymat kiritmadingiz";
+// console.log(x)
+
+// let x = 5 > 6 && 4 < 6 && 3 > 1                        =========================> va degani
+// let y = 5 > 6 || 4 > 6 || 3 < 1 ||                     =========================>  yoki degani
+
+// console.log(x);
+// console.log(y);
+let a = Number(prompt("a"))//"4"
+let b = Number(prompt("b"))////"100"
+let c = Number(prompt("c"))// //"2"
+let d = Number(prompt("d"))// //"2"
+let e = Number(prompt("e"))// //"2"
+let f = Number(prompt("f"))// //"2"
+let g = Number(prompt("g"))// //"2"
+// console.log("a",a);
+// console.log("b",b);
+// console.log("c",c);
+
+// if(a <= b && a <= c) {
+//     console.log(a);
+// }
+// else if(b <= c && b <= a) {
+//     console.log(b);
+// }
+// else {
+//     console.log(c);
+// }
+
+
+// 6 ta raqamnini eng kattasini yozish
+
+
+
+
+
+
+
+
+
+
+
+
+//6 ta raqamni eng kichigini yozish
