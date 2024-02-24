@@ -166,6 +166,9 @@ else {
 
 
 
+
+
+
 // let num4 = Number(prompt("biron son kiriting"))
 // let num5 = Number(prompt("biron son kiriting"))
 // let num6 = Number(prompt("biron son kiriting"))
