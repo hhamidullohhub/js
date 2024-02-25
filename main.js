@@ -230,6 +230,6 @@ if (color == "yashil") {
 }if (color == Number) {
     console.log("xatolik mavjud")
 }
-// else if (color == "") {
-//     console.log("xatolik bor")
-// } 
+else if (color == "") {
+    console.log("xatolik bor")
+} 
