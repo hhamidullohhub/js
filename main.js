@@ -203,18 +203,18 @@
 
 
 
-//Foydalanuvchidan 20 raqamidan kichik son kiritishini so'rang.Agar kiritilgan raqam 20 yoki undan katta bo'lsa ekranda 'Juda katta' degan yozuvni chiqaring, aks holda 'Rahmat' yozuvini chiqaring.
-// let text = prompt("20 dan kichik bolgan son kiritjng")
+Foydalanuvchidan 20 raqamidan kichik son kiritishini so'rang.Agar kiritilgan raqam 20 yoki undan katta bo'lsa ekranda 'Juda katta' degan yozuvni chiqaring, aks holda 'Rahmat' yozuvini chiqaring.
+let text = prompt("20 dan kichik bolgan son kiritjng")
 
-// if (text > 20) {
-//     console.log("bu son 20 dan katta")
-// } else if (text == 20) {
-//     console.log("bu son 20 ga teng")
-// } else if (text < 20) {
-//     console.log("Raxmat")
-// }else if (Number) {
-//     console.log("xatolik bor")
-// }
+if (text > 20) {
+    console.log("bu son 20 dan katta")
+} else if (text == 20) {
+    console.log("bu son 20 ga teng")
+} else if (text < 20) {
+    console.log("Raxmat")
+}else if (Number) {
+    console.log("xatolik bor")
+}
 
 //Foydalanuvhidan sevimli rangini kiritishini so'rang . Agar kiritilgan rang 'yashil' yoki 'Yashil' yoki 'YASHIL' bo'lsa ekranda 'Men ham yashil rangni yaxshi ko'raman deb chiqaring' , aks holda 'Men [rangni] yoqtirmayman, menga yashil yoqadi deb chiqaring!
 
