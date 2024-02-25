@@ -218,18 +218,18 @@
 
 //Foydalanuvhidan sevimli rangini kiritishini so'rang . Agar kiritilgan rang 'yashil' yoki 'Yashil' yoki 'YASHIL' bo'lsa ekranda 'Men ham yashil rangni yaxshi ko'raman deb chiqaring' , aks holda 'Men [rangni] yoqtirmayman, menga yashil yoqadi deb chiqaring!
 
-// let color = Number(prompt("sevimli rangizni kiriting"))
-// color = color.toLowerCase()
+let color = Number(prompt("sevimli rangizni kiriting"))
+color = color.toLowerCase()
 
-// if (color == "yashil") {
-//     console.log("menga ham yashil rang juda yoqadi")
-// }if (color == "qizil") {
-//     console.log("menga xam qizil rangi judayam yoqadi")
-// }else {
-//     console.log(`menga ${color} rangi yoqmaydi menga yashil rangi yoqadi`)
-// }if (color == Number) {
-//     console.log("xatolik mavjud")
-// }
-// else if (color == "") {
-//     console.log("xatolik bor")
-// } 
+if (color == "yashil") {
+    console.log("menga ham yashil rang juda yoqadi")
+}if (color == "qizil") {
+    console.log("menga xam qizil rangi judayam yoqadi")
+}else {
+    console.log(`menga ${color} rangi yoqmaydi menga yashil rangi yoqadi`)
+}if (color == Number) {
+    console.log("xatolik mavjud")
+}
+else if (color == "") {
+    console.log("xatolik bor")
+} 
