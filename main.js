@@ -106,69 +106,92 @@
 
 //6 ta raqamni eng kichigini yozish
 
-let number1 = Number(prompt("birinchi son"))
-let number2 = Number(prompt("ikkinchi son"))
-let number3 = Number(prompt("uchinchi son"))
-let number4 = Number(prompt("tortingchi son"))
-let number5 = Number(prompt("beshinchi son"))
-let number6 = Number(prompt("oltinchi son"))
-console.log("number1", number1);
-console.log("number2", number2);
-console.log("number3", number3);
-console.log("number4", number4);
-console.log("number5", number5);
-console.log("number6", number6);
-if (number1 <= number2 && number1 <= number3) {
-    console.log(number1)
-}
+// let number1 = Number(prompt("birinchi son"))
+// let number2 = Number(prompt("ikkinchi son"))
+// let number3 = Number(prompt("uchinchi son"))
+// let number4 = Number(prompt("tortingchi son"))
+// let number5 = Number(prompt("beshinchi son"))
+// let number6 = Number(prompt("oltinchi son"))
+// console.log("number1", number1);
+// console.log("number2", number2);
+// console.log("number3", number3);
+// console.log("number4", number4);
+// console.log("number5", number5);
+// console.log("number6", number6);
+// if (number1 <= number2 && number1 <= number3) {
+//     console.log(number1)
+// }
 
-else if(number2 <= number3 && number2 <= number1) {
-    console.log(number2)
-}
+// else if(number2 <= number3 && number2 <= number1) {
+//     console.log(number2)
+// }
 
-else {
-    console.log(number3)
-}
+// else {
+//     console.log(number3)
+// }
 
-if (number4 <= number5 && number4 <= number6) {
-    console.log(number4)
-}
+// if (number4 <= number5 && number4 <= number6) {
+//     console.log(number4)
+// }
 
-else if (number5 <= number6 && number5 <= number4) {
-    console.log(number5)
-}
+// else if (number5 <= number6 && number5 <= number4) {
+//     console.log(number5)
+// }
 
-else {
-    console.log(number6)
-}
+// else {
+//     console.log(number6)
+// }
 
 
 // 6 ta raqamnini eng kattasini yozish
 
-let num1 = Number(prompt("birinchi son"))
-let num2 = Number(prompt("ikkinchi son"))
-let num3 = Number(prompt("uchinchi son"))
-console.log("bu eng kattasini topb beardi")
-console.log("num1",num1)
-console.log("num2", num2)
-console.log("num3", num3)
-if (num1 >= num2 && num1 >= num3) {
-    console.log(num1)
-}
-else if (num2 >= num3 && num2 >= num1) {
-    console.log(num2)
-}
+// let num1 = Number(prompt("birinchi son"))
+// let num2 = Number(prompt("ikkinchi son"))
+// let num3 = Number(prompt("uchinchi son"))
+// console.log("bu eng kattasini topb beardi")
+// console.log("num1",num1)
+// console.log("num2", num2)
+// console.log("num3", num3)
+// if (num1 >= num2 && num1 >= num3) {
+//     console.log(num1)
+// }
+// else if (num2 >= num3 && num2 >= num1) {
+//     console.log(num2)
+// }
 
-else {
-    console.log(num3)
-}
+// else {
+//     console.log(num3)
+// }
 
+// let num1 = Number(prompt("birinchi sonni kiriting"))
+// let num2 = Number(prompt("ikkinchi sonni kiritng"))
+// let num3 = Number(prompt("uchinvhi sonni kiriting"))
+// console.log("birinchi son",num1)
+// console.log("ikkiinchi son", num2)
+// console.log("uchinchi son", num3)
 
+// if (num1 <= num3 && num1 <= num2) {
+//     console.log(num1)
+// }else if(num2 <= num1 && num2 <= num3) {
+//     console.log(num2)
+// }else {
+//     console.log(num3)
+// }
 
+// let num4 = Number(prompt("tortinchi son"))
+// let num5 = Number(prompt("beshinchu sonni kiriting"))
+// let num6 = Number(peompt("oltinchi sonni kiritng"))
+// console.log("tortinchi son", num4)
+// console.log("beshinchi son", num5)
+// console.log("oltinchi son", num6)
 
-
-
-
+// if (num4 >= num6 && num4 >= num5) {
+//     console.log(num4)
+// }else if (num5 >= num4 && num5 >= num6) {
+//     console.log(num5)
+// }else {
+//     console.log(num6)
+// }
 // let num4 = Number(prompt("biron son kiriting"))
 // let num5 = Number(prompt("biron son kiriting"))
 // let num6 = Number(prompt("biron son kiriting"))
@@ -176,3 +199,37 @@ else {
 // console.log("num4", num4);
 // console.log("num5", num5);
 // console.log("num6", num6);
+
+
+
+
+//Foydalanuvchidan 20 raqamidan kichik son kiritishini so'rang.Agar kiritilgan raqam 20 yoki undan katta bo'lsa ekranda 'Juda katta' degan yozuvni chiqaring, aks holda 'Rahmat' yozuvini chiqaring.
+// let text = prompt("20 dan kichik bolgan son kiritjng")
+
+// if (text > 20) {
+//     console.log("bu son 20 dan katta")
+// } else if (text == 20) {
+//     console.log("bu son 20 ga teng")
+// } else if (text < 20) {
+//     console.log("Raxmat")
+// }else if (Number) {
+//     console.log("xatolik bor")
+// }
+
+//Foydalanuvhidan sevimli rangini kiritishini so'rang . Agar kiritilgan rang 'yashil' yoki 'Yashil' yoki 'YASHIL' bo'lsa ekranda 'Men ham yashil rangni yaxshi ko'raman deb chiqaring' , aks holda 'Men [rangni] yoqtirmayman, menga yashil yoqadi deb chiqaring!
+
+let color = Number(prompt("sevimli rangizni kiriting"))
+color = color.toLowerCase()
+
+if (color == "yashil") {
+    console.log("menga ham yashil rang juda yoqadi")
+}if (color == "qizil") {
+    console.log("menga xam qizil rangi judayam yoqadi")
+}else {
+    console.log(`menga ${color} rangi yoqmaydi menga yashil rangi yoqadi`)
+}if (color == Number) {
+    console.log("xatolik mavjud")
+}
+// else if (color == "") {
+//     console.log("xatolik bor")
+// } 
