@@ -224,37 +224,45 @@
 // console.log("number6", number6)
 
 
-let number1 = Number(prompt("birimchi sonni kiriting"))
-let number2 = Number(prompt("ikkinchi sonni kiriting"))
-let number3 = Number(prompt("uchinchi sonni kiriting"))
-let number4 = Number(prompt("tortinchi sonni kiriting"))
-let number5 = Number(prompt("beshinchi sonni kiriting"))
-let number6 = Number(prompt("oltinchi sonni kiriting"))
-// let none = number1.numtim
-console.log ("number1", number1)
-console.log ("number2", number2)
-console.log ("number3", number3)
-console.log ("number4", number4)
-console.log ("number5", number5)
-console.log ("number6", number6)
-if (number1 <= number2 && number1 <= number3 && number1 <= number4 && number1 <= number5 &&number1 <= number6) {
-    console.log(number1)
-}else if (number2 <= number1 && number3 && number2 <= number4 && number2 <= number5 && number3 <= number6) {
-    console.log(number2)
-}else if (number3 <= number1 && number3 <= number2 && number3 <= number4 && number3 <= number5 && number3 <= number6) {
-    console.log(number3)
-}else if (number4 <= number1 && number4 <= number2 && number4 <= number3 && number4 <= number5 && number4 <= number6) {
-    console.log(number4)
-}else if (number5 <= number1 && number5 <= number2 && number5 <= number3 && number5 <= number4 && number5 <= number6) {
-    console.log(number5)
-}else if (number6 <= number1 && number6 <= number2 && number6 <= number3 && number6 <= number4 && number6 <= number5) {
-    console.log(number6)
-}else (number1.length > 0 ) {
-    let y = Number(number1)
-    if (isNaN(y)) {
-        console.log("ilitomos raqam kiriting siz raqam kiritmadingiz")
+let number1 = prompt("birimchi sonni kiriting").trim()
+let number2 = prompt("ikkinchi son").trim()
+let number3 = prompt("uchinchis son").trim()
+let number4 = prompt("tortincho son").trim()
+let number5 = prompt("beshinchi son").trim()
+let number6 = prompt("oltinchi son").trim()
+console.log("number1", number1)
+console.log("number2", number2)
+console.log("number3", number3)
+console.log("number4", number4)
+console.log("number5", number5)
+console.log("number6", number6)
+if (number1 && number2 && number3 && number4 && number5 && number6.length > 0) {
+    const num1 = Number(number1 && number2 && number3 && number4 && number5 && number6)
+    if (isNaN(num1)) {
+        console.log("raqam kiritmadingiz")
+    }else {
+        if (number1 <= number2 && number1 <= number3 && number1 <= number4 && number1 <= number5 && number1 <= number6) {
+            console.log(number1)
+        } else if (number2 <= number1 && number2 <= number3 && number2 <= number4 && number2 <= number5 && number3 <= number6) {
+            console.log(number2)
+        } else if (number3 <= number1 && number3 <= number2 && number3 <= number4 && number3 <= number5 && number3 <= number6) {
+            console.log(number3)
+        } else if (number4 <= number1 && number4 <= number2 && number4 <= number3 && number4 <= number5 && number4 <= number6) {
+            console.log(number4)
+        } else if (number5 <= number1 && number5 <= number2 && number5 <= number3 && number5 <= number4 && number5 <= number6) {
+            console.log(number5)
+        } else if (number6 <= number1 && number6 <= number2 && number6 <= number3 && number6 <= number4 && number6 <= number5) {
+            console.log(number6)
+        }
     }
+}else {
+    console.log("raqam kiritmadingiz");
 }
+
+
+
+
+
 
 // if (numTrim.length > 0) {
 //     let y = Number(numTrim)
@@ -275,3 +283,21 @@ if (number1 <= number2 && number1 <= number3 && number1 <= number4 && number1 <=
 //     console.log("bu son toq son")
 //     console.console.log();
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// biz kiritgan qiymatlar orasida neshtasidir raqam bolsa osha raqamlar ortasida taqqoslash bolishi kerakak qaysilaridir  xarf ili belgi bosa osha xarfli console.log()ga chqioshi kerak
+
+
