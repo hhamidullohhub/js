@@ -46,19 +46,21 @@
 //     console.log("Qiymat kiritmadingiz");
 // }
 
-let a = prompt("bironta son kiriting")
-let numTrim = a.trim()
+// let a = prompt("bironta son kiriting")
+// let numTrim = a.trim()
 
-if (numTrim.length > 0) {
-    let numInt = Number(numTrim)
-    if (isNaN(numInt)){
-        console.log("raqam kiritmadingiz")
-    }else if (numInt % 2 === 0) {
-        console.log("bu son juft son")
-    }else {
-        console.log("bu son toq son")
-    }
-}
+// if (numTrim.length > 0) {
+//     let y = Number(numTrim)
+//     if (isNaN(y)){
+//         console.log("raqam kiritmadingiz")
+//     }else if (y % 2 === 0) {
+//         console.log("bu son juft son")
+//     }else {
+//         console.log("bu son toq son")
+//     }
+// }else {
+//     console.log("hech narsa kiritmadingiz")
+// }
 
 // if (num % 2 == 0 ) {
 //     console.log("bu son juft son")
@@ -110,46 +112,6 @@ if (numTrim.length > 0) {
 // }
 // else {
 //     console.log(c);
-// }
-
-
-
-//6 ta raqamni eng kichigini yozish
-
-// let number1 = Number(prompt("birinchi son"))
-// let number2 = Number(prompt("ikkinchi son"))
-// let number3 = Number(prompt("uchinchi son"))
-// let number4 = Number(prompt("tortingchi son"))
-// let number5 = Number(prompt("beshinchi son"))
-// let number6 = Number(prompt("oltinchi son"))
-// console.log("number1", number1);
-// console.log("number2", number2);
-// console.log("number3", number3);
-// console.log("number4", number4);
-// console.log("number5", number5);
-// console.log("number6", number6);
-// if (number1 <= number2 && number1 <= number3) {
-//     console.log(number1)
-// }
-
-// else if(number2 <= number3 && number2 <= number1) {
-//     console.log(number2)
-// }
-
-// else {
-//     console.log(number3)
-// }
-
-// if (number4 <= number5 && number4 <= number6) {
-//     console.log(number4)
-// }
-
-// else if (number5 <= number6 && number5 <= number4) {
-//     console.log(number5)
-// }
-
-// else {
-//     console.log(number6)
 // }
 
 
@@ -244,3 +206,72 @@ if (numTrim.length > 0) {
 //     console.log("xatolik bor")
 // }
 
+
+
+//oltita raqamni eng kichigini topish
+
+// let number1 = Number(prompt("birinchi son"))
+// let number2 = Number(prompt("ikkinchi son"))
+// let number3 = Number(prompt("uchinchi son"))
+// let number4 = Number(prompt("tortingchi son"))
+// let number5 = Number(prompt("beshinchi son"))
+// let number6 = Number(prompt("oltinchi son"))
+// console.log("number1", number1);
+// console.log("number2", number2);
+// console.log("number3", number3);
+// console.log("number4", number4);
+// console.log("number5", number5);
+// console.log("number6", number6)
+
+
+let number1 = Number(prompt("birimchi sonni kiriting"))
+let number2 = Number(prompt("ikkinchi sonni kiriting"))
+let number3 = Number(prompt("uchinchi sonni kiriting"))
+let number4 = Number(prompt("tortinchi sonni kiriting"))
+let number5 = Number(prompt("beshinchi sonni kiriting"))
+let number6 = Number(prompt("oltinchi sonni kiriting"))
+// let none = number1.numtim
+console.log ("number1", number1)
+console.log ("number2", number2)
+console.log ("number3", number3)
+console.log ("number4", number4)
+console.log ("number5", number5)
+console.log ("number6", number6)
+if (number1 <= number2 && number1 <= number3 && number1 <= number4 && number1 <= number5 &&number1 <= number6) {
+    console.log(number1)
+}else if (number2 <= number1 && number3 && number2 <= number4 && number2 <= number5 && number3 <= number6) {
+    console.log(number2)
+}else if (number3 <= number1 && number3 <= number2 && number3 <= number4 && number3 <= number5 && number3 <= number6) {
+    console.log(number3)
+}else if (number4 <= number1 && number4 <= number2 && number4 <= number3 && number4 <= number5 && number4 <= number6) {
+    console.log(number4)
+}else if (number5 <= number1 && number5 <= number2 && number5 <= number3 && number5 <= number4 && number5 <= number6) {
+    console.log(number5)
+}else if (number6 <= number1 && number6 <= number2 && number6 <= number3 && number6 <= number4 && number6 <= number5) {
+    console.log(number6)
+}else (number1.length > 0 ) {
+    let y = Number(number1)
+    if (isNaN(y)) {
+        console.log("ilitomos raqam kiriting siz raqam kiritmadingiz")
+    }
+}
+
+// if (numTrim.length > 0) {
+//     let y = Number(numTrim)
+//     if (isNaN(y)){
+//         console.log("raqam kiritmadingiz")
+//     }else if (y % 2 === 0) {
+//         console.log("bu son juft son")
+//     }else {
+//         console.log("bu son toq son")
+//     }
+// }else {
+//     console.log("hech narsa kiritmadingiz")
+// }
+
+// if (num % 2 == 0 ) {
+//     console.log("bu son juft son")
+// }else {
+//     console.log("bu son toq son")
+//     console.console.log();
+// }
