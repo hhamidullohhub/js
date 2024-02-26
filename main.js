@@ -31,7 +31,7 @@
 // let numTrim = num.trim()  
 
 // if(numTrim.length > 0) {
-//     let numInt = Number(numTrim) /// "4","55550", "dfkashsdjk", "fdsauh2564", ",,,....p[l413892720y"  fdasfdas
+//     let   = Number(numTrim) /// "4","55550", "dfkashsdjk", "fdsauh2564", ",,,....p[l413892720y"  fdasfdas
 //     if(isNaN(numInt)) {
 //         console.log("Raqam kiritmadingiz");
 //     }else {
@@ -46,11 +46,18 @@
 //     console.log("Qiymat kiritmadingiz");
 // }
 
-let a = promt("bironta son kiriting")
+let a = prompt("bironta son kiriting")
 let numTrim = a.trim()
 
 if (numTrim.length > 0) {
     let numInt = Number(numTrim)
+    if (isNaN(numInt)){
+        console.log("raqam kiritmadingiz")
+    }else if (numInt % 2 === 0) {
+        console.log("bu son juft son")
+    }else {
+        console.log("bu son toq son")
+    }
 }
 
 // if (num % 2 == 0 ) {
@@ -109,62 +116,62 @@ if (numTrim.length > 0) {
 
 //6 ta raqamni eng kichigini yozish
 
-let number1 = Number(prompt("birinchi son"))
-let number2 = Number(prompt("ikkinchi son"))
-let number3 = Number(prompt("uchinchi son"))
-let number4 = Number(prompt("tortingchi son"))
-let number5 = Number(prompt("beshinchi son"))
-let number6 = Number(prompt("oltinchi son"))
-console.log("number1", number1);
-console.log("number2", number2);
-console.log("number3", number3);
+// let number1 = Number(prompt("birinchi son"))
+// let number2 = Number(prompt("ikkinchi son"))
+// let number3 = Number(prompt("uchinchi son"))
+// let number4 = Number(prompt("tortingchi son"))
+// let number5 = Number(prompt("beshinchi son"))
+// let number6 = Number(prompt("oltinchi son"))
+// console.log("number1", number1);
+// console.log("number2", number2);
+// console.log("number3", number3);
 // console.log("number4", number4);
 // console.log("number5", number5);
 // console.log("number6", number6);
-if (number1 <= number2 && number1 <= number3) {
-    console.log(number1)
-}
+// if (number1 <= number2 && number1 <= number3) {
+//     console.log(number1)
+// }
 
-else if(number2 <= number3 && number2 <= number1) {
-    console.log(number2)
-}
+// else if(number2 <= number3 && number2 <= number1) {
+//     console.log(number2)
+// }
 
-else {
-    console.log(number3)
-}
+// else {
+//     console.log(number3)
+// }
 
-if (number4 <= number5 && number4 <= number6) {
-    console.log(number4)
-}
+// if (number4 <= number5 && number4 <= number6) {
+//     console.log(number4)
+// }
 
-else if (number5 <= number6 && number5 <= number4) {
-    console.log(number5)
-}
+// else if (number5 <= number6 && number5 <= number4) {
+//     console.log(number5)
+// }
 
-else {
-    console.log(number6)
-}
+// else {
+//     console.log(number6)
+// }
 
 
-// 6 ta raqamnini eng kattasini yozish
+// // 6 ta raqamnini eng kattasini yozish
 
-let num1 = Number(prompt("birinchi son"))
-let num2 = Number(prompt("ikkinchi son"))
-let num3 = Number(prompt("uchinchi son"))
-console.log("bu eng kattasini topb beardi")
-console.log("num1",num1)
-console.log("num2", num2)
-console.log("num3", num3)
-if (num1 >= num2 && num1 >= num3) {
-    console.log(num1)
-}
-else if (num2 >= num3 && num2 >= num1) {
-    console.log(num2)
-}
+// let num1 = Number(prompt("birinchi son"))
+// let num2 = Number(prompt("ikkinchi son"))
+// let num3 = Number(prompt("uchinchi son"))
+// console.log("bu eng kattasini topb beardi")
+// console.log("num1",num1)
+// console.log("num2", num2)
+// console.log("num3", num3)
+// if (num1 >= num2 && num1 >= num3) {
+//     console.log(num1)
+// }
+// else if (num2 >= num3 && num2 >= num1) {
+//     console.log(num2)
+// }
 
-else {
-    console.log(num3)
-}
+// else {
+//     console.log(num3)
+// }
 
 // let num1 = Number(prompt("birinchi sonni kiriting"))
 // let num2 = Number(prompt("ikkinchi sonni kiritng"))
