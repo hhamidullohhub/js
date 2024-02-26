@@ -232,10 +232,5 @@
 // }
 // else if (color == "") {
 //     console.log("xatolik bor")
-// } 
-
-let num = 811;
-let num2 = 781;
-let result = num-num2
-console.log(result)
+// }
 
