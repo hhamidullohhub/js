@@ -53,10 +53,6 @@ if (numTrim.length > 0) {
     let numInt = Number(numTrim)
 }
 
-
-
-
-
 // if (num % 2 == 0 ) {
 //     console.log("bu son juft son")
 // }else {
