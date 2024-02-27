@@ -338,7 +338,33 @@ if (num2.length > 0) {
     alert("hech narsa kiritmadingiz")
 }
 
-if(num1.l){}
+let min, max;
+
+if (num1 <= num2 && num1 <= num3) {
+  min = num1;
+  if (num2 >= num3) {
+    max = num2;
+  } else {
+    max = num3;
+  }
+} else if (num2 <= num1 && num2 <= num3) {
+  min = num2;
+  if (num1 >= num3) {
+    max = num1;
+  } else {
+    max = num3;
+  }
+} else {
+  min = num3;
+  if (num1 >= num2) {
+    max = num1;
+  } else {
+    max = num2;
+  }
+}
+
+console.log(`eng kichkina son: ${min}`);
+console.log(`eng katta son: ${max}`);
 
 // let yigirma = prompt("iltimos 20 dan kichik son kiriting").trim()
 // if (yigirma.length <= 0) {
