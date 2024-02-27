@@ -304,67 +304,67 @@
 //     console.console.log();
 // }
 
-let num1 = (prompt("bironta son yozing")).trim()
-let num2 = (prompt("bironta son yozing")).trim()
-let num3 = (prompt("bironta son yozing")).trim()
-let num4 = (prompt("bironta son yozing")).trim()
-let num5 = (prompt("bironta son yozing")).trim()
-let num6 = (prompt("bironta son yozing")).trim()
+// let num1 = (prompt("bironta son yozing")).trim()
+// let num2 = (prompt("bironta son yozing")).trim()
+// let num3 = (prompt("bironta son yozing")).trim()
+// let num4 = (prompt("bironta son yozing")).trim()
+// let num5 = (prompt("bironta son yozing")).trim()
+// let num6 = (prompt("bironta son yozing")).trim()
 
-if (num1.length > 0) {
-    console.log(num1)
-} else {
-    console.log("hech narsa kiritmadingiz")
-}
-if (num2.length > 0) {
-    console.log(num2)
-} else {
-    console.log("hech narsa kiritmadingiz")
-} if (num3.length > 0) {
-    console.log(num3)
-} else {
-    console.log("hech narsa kiritmadingiz")
-} if (num4.length > 0) {
-    console.log(num4)
-} else {
-    console.log('hech narsa kiritmadingiz')
-} if (num5 > 0) {
-    console.log(num5)
-} else {
-    console.log("hech narsa kiritmadingiz")
-} if (num6.length > 0) {
-    console.log(num6)
-} else {
-    alert("hech narsa kiritmadingiz")
-}
+// if (num1.length > 0) {
+//     console.log(num1)
+// } else {
+//     console.log("hech narsa kiritmadingiz")
+// }
+// if (num2.length > 0) {
+//     console.log(num2)
+// } else {
+//     console.log("hech narsa kiritmadingiz")
+// } if (num3.length > 0) {
+//     console.log(num3)
+// } else {
+//     console.log("hech narsa kiritmadingiz")
+// } if (num4.length > 0) {
+//     console.log(num4)
+// } else {
+//     console.log('hech narsa kiritmadingiz')
+// } if (num5 > 0) {
+//     console.log(num5)
+// } else {
+//     console.log("hech narsa kiritmadingiz")
+// } if (num6.length > 0) {
+//     console.log(num6)
+// } else {
+//     alert("hech narsa kiritmadingiz")
+// }
 
-let min, max;
+// let min, max;
 
-if (num1 <= num2 && num1 <= num3) {
-  min = num1;
-  if (num2 >= num3) {
-    max = num2;
-  } else {
-    max = num3;
-  }
-} else if (num2 <= num1 && num2 <= num3) {
-  min = num2;
-  if (num1 >= num3) {
-    max = num1;
-  } else {
-    max = num3;
-  }
-} else {
-  min = num3;
-  if (num1 >= num2) {
-    max = num1;
-  } else {
-    max = num2;
-  }
-}
+// if (num1 <= num2 && num1 <= num3) {
+//   min = num1;
+//   if (num2 >= num3) {
+//     max = num2;
+//   } else {
+//     max = num3;
+//   }
+// } else if (num2 <= num1 && num2 <= num3) {
+//   min = num2;
+//   if (num1 >= num3) {
+//     max = num1;
+//   } else {
+//     max = num3;
+//   }
+// } else {
+//   min = num3;
+//   if (num1 >= num2) {
+//     max = num1;
+//   } else {
+//     max = num2;
+//   }
+// }
 
-console.log(`eng kichkina son: ${min}`);
-console.log(`eng katta son: ${max}`);
+// console.log(`eng kichkina son: ${min}`);
+// console.log(`eng katta son: ${max}`);
 
 // let yigirma = prompt("iltimos 20 dan kichik son kiriting").trim()
 // if (yigirma.length <= 0) {
@@ -393,3 +393,35 @@ console.log(`eng katta son: ${max}`);
 // console.log(num4)
 // console.log(num5)
 // console.log(num6)
+
+let num1 = 10;
+let num2 = 20;
+let num3 = 30;
+
+let min, max;
+
+if (num1 <= num2 && num1 <= num3) {
+  min = num1;
+  if (num2 >= num3) {
+    max = num2;
+  } else {
+    max = num3;
+  }
+} else if (num2 <= num1 && num2 <= num3) {
+  min = num2;
+  if (num1 >= num3) {
+    max = num1;
+  } else {
+    max = num3;
+  }
+} else {
+  min = num3;
+  if (num1 >= num2) {
+    max = num1;
+  } else {
+    max = num2;
+  }
+}
+
+console.log(`Smallest value: ${min}`);
+console.log(`Largest value: ${max}`);
