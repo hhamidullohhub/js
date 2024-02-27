@@ -304,26 +304,54 @@
 //     console.console.log();
 // }
 
-let num1 = (prompt ("bironta son yozing")).trim()
+let num1 = (prompt("bironta son yozing")).trim()
+let num2 = (prompt("bironta son yozing")).trim()
+let num3 = (prompt("bironta son yozing")).trim()
+let num4 = (prompt("bironta son yozing")).trim()
+let num5 = (prompt("bironta son yozing")).trim()
+let num6 = (prompt("bironta son yozing")).trim()
+
 if (num1.length > 0) {
     console.log(num1)
-}else {
+} else {
     console.log("hech narsa kiritmadingiz")
 }
-
-
-let yigirma = prompt("iltimos 20 dan kichik son kiriting").trim()
-if (yigirma.length <= 0) {
-    console.log("siz qiymat kiritmadingiz iltimos qiymat kiriting")
-}else if (Number (yigirma > 20)) {
-    console.log("siz kiritgan son 20 dan katta")
-}else if (Number (yigirma < 20)) {
-    console.log("RAXMAT")
-}else if (Number (yigirma == 20)) {
-    console.log("siz kiritgan son 20 ga teng")
-}else  {
-    console.log("iltimos raqam kiritng")
+if (num2.length > 0) {
+    console.log(num2)
+} else {
+    console.log("hech narsa kiritmadingiz")
+} if (num3.length > 0) {
+    console.log(num3)
+} else {
+    console.log("hech narsa kiritmadingiz")
+} if (num4.length > 0) {
+    console.log(num4)
+} else {
+    console.log('hech narsa kiritmadingiz')
+} if (num5 > 0) {
+    console.log(num5)
+} else {
+    console.log("hech narsa kiritmadingiz")
+} if (num6.length > 0) {
+    console.log(num6)
+} else {
+    alert("hech narsa kiritmadingiz")
 }
+
+if(num1.l){}
+
+// let yigirma = prompt("iltimos 20 dan kichik son kiriting").trim()
+// if (yigirma.length <= 0) {
+//     console.log("siz qiymat kiritmadingiz iltimos qiymat kiriting")
+// }else if (Number (yigirma > 20)) {
+//     console.log("siz kiritgan son 20 dan katta")
+// }else if (Number (yigirma < 20)) {
+//     console.log("RAXMAT")
+// }else if (Number (yigirma == 20)) {
+//     console.log("siz kiritgan son 20 ga teng")
+// }else  {
+//     console.log("iltimos raqam kiritng")
+// }
 
 
 
