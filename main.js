@@ -304,32 +304,30 @@
 //     console.console.log();
 // }
 
-// let num1 = (prompt ("bironta son yozing")).trim()
-// if (num1.length > 0) {
-//     console.log(num1)
-// }else {
-//     console.log("hech narsa kiritmadingiz")
-// }
+let num1 = (prompt ("bironta son yozing")).trim()
+if (num1.length > 0) {
+    console.log(num1)
+}else {
+    console.log("hech narsa kiritmadingiz")
+}
 
 
-// let yigirma = prompt("iltimos 20 dan kichik son kiriting").trim()
-// if (yigirma.length <= 0) {
-//     console.log("siz qiymat kiritmadingiz iltimos qiymat kiriting")
-// }else if (Number (yigirma > 20)) {
-//     console.log("siz kiritgan son 20 dan katta")
-// }else if (Number (yigirma < 20)) {
-//     console.log("RAXMAT")
-// }else if (Number (yigirma == 20)) {
-//     console.log("siz kiritgan son 20 ga teng")
-// }else  {
-//     console.log("iltimos raqam kiritng")
-// }
+let yigirma = prompt("iltimos 20 dan kichik son kiriting").trim()
+if (yigirma.length <= 0) {
+    console.log("siz qiymat kiritmadingiz iltimos qiymat kiriting")
+}else if (Number (yigirma > 20)) {
+    console.log("siz kiritgan son 20 dan katta")
+}else if (Number (yigirma < 20)) {
+    console.log("RAXMAT")
+}else if (Number (yigirma == 20)) {
+    console.log("siz kiritgan son 20 ga teng")
+}else  {
+    console.log("iltimos raqam kiritng")
+}
 
 
-let x = 555
-let y = 492
-let d = x-y
-console.log(d)
+
+
 
 // let num2 = (prompt ("bironta son yozing")).trim()
 // let num3 = (prompt ("bironta son yozing")).trim()
